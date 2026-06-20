@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .sans {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  .mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+body {
+  background-color: #F4F1EA;
+  color: #1A1A1A;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom editorial styles */
+.editorial-border {
+  border: 1px solid #1A1A1A;
+}
+
+.editorial-border-thick {
+  border: 2px solid #1A1A1A;
+}
+
+.editorial-divider {
+  border-top: 1px solid #1A1A1A;
+}
+
+.editorial-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: #1A1A1A;
+}
+
+.editorial-shadow {
+  box-shadow: 4px 4px 0px #1A1A1A;
+}
+
+.editorial-shadow-sm {
+  box-shadow: 2px 2px 0px #1A1A1A;
+}
+
+.editorial-shadow-lg {
+  box-shadow: 6px 6px 0px #1A1A1A;
+}
+

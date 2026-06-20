@@ -1,0 +1,6 @@
+{
+  "name": "Futbol Mac Analizörü",
+  "description": "Futbol maçlarının tümüyle veya pozisyonsal olarak detaylı analizini yapan, takımların eksik ve güçlü yönlerini ortaya koyan taktiksel analiz uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
